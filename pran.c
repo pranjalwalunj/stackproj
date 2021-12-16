@@ -18,33 +18,33 @@ printf("\n Enter the Choice:");
 scanf("%d",&choice);
 switch(choice)
 {
-case 1:
-{
-push();
-break;
-}
-case 2:
-{
-pop();
-break;
-}
+    case 1:
+        {
+            push();
+            break;
+        }
+    case 2:
+        {
+            pop();
+            break;
+        }
 
-case 3:
-{
-display();
-break;
-}
-case 4:
-{
-printf("\n\t EXIT POINT ");
-break;
-}
-default:
-{
-printf ("\n\t Please Enter a Valid Choice(1/2/3/4)");
-}
+    case 3:
+        {
+            display();
+            break;
+        }
+    case 4:
+        {
+            printf("\n\t EXIT POINT ");
+            break;
+        }
+    default:
+        {
+            printf ("\n\t Please Enter a Valid Choice(1/2/3/4)");
+        }
 
-}
+    }
 }
 while(choice!=4);
 return 0;
